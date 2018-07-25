@@ -1,0 +1,18 @@
+.row{
+    margin: 5px 20% 5px;
+    padding: 10px;
+    background-color: darkgray;
+}
+
+.no-gutters > [class^="col-"],
+.no-gutters > [class*=" col-"] {
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+#display{
+    min-width: 100%;
+    height: 70px;
+    font-size: 40px;
+    text-align: right;
+}
